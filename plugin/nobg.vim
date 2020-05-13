@@ -3,8 +3,7 @@ function s:clear_bg(group)
 endfunction
 
 function s:clear_bg_all()
-	let l:groups = ['Normal', 'NonText', 'LineNr', 'CursorLineNr', 'Todo',
-	             \  'SignColumn', 'VertSplit']
+	let l:groups = ['Normal', 'NonText', 'LineNr', 'CursorLineNr', 'Todo', 'SignColumn', 'VertSplit']
 	for group in l:groups
 		call s:clear_bg(group)
 	endfor
