@@ -27,7 +27,7 @@ function s:clear_stop()
 	endif
 endfunction
 
-command NobgEnable  call s:clear_auto()
-command NobgDisable call s:clear_stop()
+command! NobgEnable  call s:clear_auto()
+command! NobgDisable call s:clear_stop()
 
 autocmd VimEnter * call s:clear_auto()
