@@ -1,5 +1,6 @@
 function s:clear_bg(group)
 	execute 'highlight ' . a:group . ' ctermbg=None'
+	execute 'highlight ' . a:group . ' guibg=None'
 endfunction
 
 function s:clear_bg_all()
